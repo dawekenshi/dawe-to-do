@@ -27,14 +27,18 @@ document.getElementById('add').addEventListener('click', (addDiv) =>{
     date.textContent = defDate;
     title.setAttribute('id', 'inner-title')
     newDiv.setAttribute('id', 'gendiv');
-    newDiv.appendChild(title);
-    newDiv.appendChild(paragraph);
-    newDiv.appendChild(space);
-    newDiv.appendChild(date);
-    newDiv.appendChild(btnDlt);
-    container.appendChild(newDiv);
-    defTitle = document.getElementById('title').value = "";
-    defPara = document.getElementById('more_info').value = "";
-    defDate = document.getElementById('deliver_time').value = "";
+    if(defPara <= 0 || defDate <= 0 || defTitle <= 0){
+        alert("Please fill needed info");
+    }else{
+        newDiv.appendChild(title);
+        newDiv.appendChild(paragraph);
+        newDiv.appendChild(space);
+        newDiv.appendChild(date);
+        newDiv.appendChild(btnDlt);
+        container.appendChild(newDiv);
+        defTitle = document.getElementById('title').value = "";
+        defPara = document.getElementById('more_info').value = "";
+        defDate = document.getElementById('deliver_time').value = "";
+    }
 })
 
