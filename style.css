@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#menu {
+    width: 40%;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.9), rgb(0, 0, 0, 0.9)), url(menu.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu > * {
+    display: grid;
+    justify-content: center;
+}
+
+
+#menu-container{
+    margin-top: 50%;
+}
+
+#menu-title:hover{
+    color: blue;
+}
+
+#add {
+    align-items: center;
+    height: 70px;
+    width: 120px;
+    background-color: darkgreen;
+    border: 2px grey solid;
+    border-radius: 5px;
+    font-size: 30px;
+    transition: ease-out 0.3s;
+    margin: 30px 0 0 59px;
+}
+
+#add:hover {
+    color: white;
+    background-color: blue;
+}
+
+#mainer {
+    background-color: #264348;
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    left: 40%;
+}
+
+body {
+    background-color: #264348;
+}
+
+label {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+#gendiv {
+    color: green;
+    padding: 10px 350px 220px 29px;
+    border: 7px black solid;
+    border-radius: 20px;
+    background-color: darkgrey;
+    margin: 30px auto 30px auto;
+    width: 88%;
+    height: 25%;
+    bottom: 70%;
+    transition: ease-out 0.5s;
+}
+
+#gendiv:hover {
+    box-shadow: 0px 10px 40px black;
+}
+
+#inner-title {
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+#sheesh {
+    align-items: center;
+    height: 40px;
+    width: 90px;
+    background-color: green;
+    border: 2px black solid;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: ease-out 0.5s;
+    margin-top: 20px;
+}
+
+#sheesh:hover{
+    background-color: darkgreen;
+}
+
+#menu-title {
+    color: green;
+    font-size: 50px;    
+    position: absolute;
+    bottom: 80%;
+    left: 33%;
+    transition: ease-out 0.3s;
+    
+}
+
+#checkeo {
+    position: absolute;
+    left: 23.5%;
+    bottom: 30%;
+    padding: 70px;
+    border: 5px green solid;
+}
+
+
+
+input {
+    width: 250px;
+    height: 40px;
+    outline: none;
+    border: 5px darkgrey solid;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+
+
+.title-title {
+    margin-left: 100px;
+}
+
+
+.deliver-time-title {
+    margin-left: 68px;
+}
+
+.more-info-title {
+    margin-left: 79px;
+}
