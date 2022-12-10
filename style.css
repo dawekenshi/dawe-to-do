@@ -27,9 +27,7 @@
     margin-top: 50%;
 }
 
-#menu-title:hover{
-    color: blue;
-}
+
 
 #add {
     align-items: center;
@@ -40,10 +38,28 @@
     border-radius: 5px;
     font-size: 30px;
     transition: ease-out 0.3s;
-    margin: 30px 0 0 59px;
+    margin: 30px 15px 0 0;
 }
 
 #add:hover {
+    color: white;
+    background-color: blue;
+}
+
+#dereto {
+    align-items: center;
+    height: 70px;
+    width: 120px;
+    background-color: darkgreen;
+    border: 2px grey solid;
+    border-radius: 5px;
+    font-size: 22px;
+    transition: ease-out 0.3s;
+    position: absolute;
+    bottom: 16%;
+}
+
+#dereto:hover {
     color: white;
     background-color: blue;
 }
@@ -88,7 +104,7 @@ label {
     margin-bottom: 3%;
 }
 
-#sheesh {
+#btn-id {
     align-items: center;
     height: 40px;
     width: 90px;
@@ -128,9 +144,12 @@ input {
     width: 250px;
     height: 40px;
     outline: none;
-    border: 5px darkgrey solid;
+    border: 5px darkgreen solid;
     border-radius: 15px;
     margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
 }
 
 
@@ -147,3 +166,4 @@ input {
 .more-info-title {
     margin-left: 79px;
 }
+
