@@ -100,7 +100,7 @@ label {
 }
 
 #inner-title {
-    margin-top: 2%;
+    margin-top: 8%;
     margin-bottom: 3%;
 }
 
@@ -165,5 +165,10 @@ input {
 
 .more-info-title {
     margin-left: 79px;
+}
+
+#inner-paragraph {
+    position: absolute;
+
 }
 

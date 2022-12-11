@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', (checkin) => {
         elements.push(savedContent[i]);
         title.setAttribute('id', 'inner-title')
         newDiv.setAttribute('id', 'gendiv');
+        paragraph.setAttribute('id', 'inner-paragraph')
         newDiv.appendChild(title);
         newDiv.appendChild(paragraph);
         newDiv.appendChild(space);
