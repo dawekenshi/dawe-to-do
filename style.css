@@ -28,7 +28,6 @@
 }
 
 
-
 #add {
     align-items: center;
     height: 70px;
@@ -172,3 +171,43 @@ input {
 
 }
 
+
+@media (max-width: 1366px) {
+ #add {
+    position: absolute;
+    right: 150px;
+ }
+
+ #dereto{
+    position: absolute;
+    left: 170px;
+    top: 275.90px;
+ }
+ #checkeo {
+    position: absolute;
+    right: 100px;
+    top: 160px;
+    bottom: 100px;
+    padding-top: 40px;
+ }   
+
+ #menu-title{
+    bottom: 80%;
+    left: 29.5%;
+ }
+ #title, #more_info, #deliver_time{
+    margin-left: -39px;
+ }
+ .title-title {
+    margin-left: 67px;
+}
+
+
+.deliver-time-title {
+    margin-left: 38px;
+}
+
+.more-info-title {
+    margin-left: 49px;
+}
+}
