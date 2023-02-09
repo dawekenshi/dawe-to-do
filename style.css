@@ -23,13 +23,13 @@
 }
 
 #add, #dereto {
-    height: 8vh;
-    width: 6.5vw;
+    height: 9vh;
+    width: 8.2vw;
     background-color: darkgreen;
     border: 0.2vw grey solid;
     margin-top: 3vh;
     border-radius: 0.4vw;
-    font-size: 0.9vw;
+    font-size: 1vw;
     transition: ease-out 0.3s;
 }
 
@@ -67,7 +67,7 @@ label {
     background-color: darkgrey;
     margin: 3vh auto 3vh auto;
     width: 56vw;
-    height: 26vh;
+    height: 36vh;
     bottom: 70vh;
     transition: ease-out 0.5s;
 }
@@ -90,8 +90,8 @@ label {
     color: green;
     font-size: 2.7vw;    
     position: absolute;
-    bottom: 80vh;
-    left: 13vw;
+    bottom: 90vh;
+    left: 15vw;
     transition: ease-out 0.3s;
     
 }
@@ -110,8 +110,8 @@ label {
 
 
 input {
-    width: 13vw;
-    height: 4.3vh;
+    width: 16.8vw;
+    height: 6vh;
     outline: none;
     border: 0.3vw darkgreen solid;
     border-radius: 0.7vw;
@@ -124,16 +124,16 @@ input {
 
 
 .title-title {
-    margin-left: 5.3vw;
+    margin-left: 7.4vw;
 }
 
 
 .deliver-time-title {
-    margin-left: 3.5vw;
+    margin-left: 5.3vw;
 }
 
 .more-info-title {
-    margin-left: 4.2vw;
+    margin-left: 6vw;
 }
 
 
