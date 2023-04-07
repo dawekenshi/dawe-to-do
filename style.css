@@ -1,19 +1,24 @@
-@font-face {
-    font-family: basado;
-    src: url(fonts/Minecraft.ttf);
-}
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
 }
 
-body {
+*::-webkit-scrollbar {
+    display: none;
+}
+
+#taitol {
+    font-size: 2vw;
+    border-bottom: dotted white 0.5vw;
+    width: 23vw;
+    padding-bottom: 0.8vh;
     display: flex;
     justify-content: center;
-    background-color: #264348;
+    margin-bottom: 2vh;
 }
 
 #menu {
@@ -22,19 +27,23 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-attachment: local;
     width: 40vw;
     height: 100vh;
+    position: fixed;
 }
 
 #mainer {
     background-color: #264348;
     width: 60vw;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 3vh;
     padding-bottom: 3vh;
+    position: absolute;
+    left: 40vw;
+    top: -0vh;
 }
 
 #gendiv {
@@ -72,8 +81,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 4vh;
-    width: 20vw;
+    margin-top: 8vh;
+    width: 25vw;
     height: 5vh;
     justify-content: space-evenly;
 }
@@ -83,12 +92,12 @@ button {
     color: green;
     padding: 1vw;
     border: 0.2vw green solid;
-    width: 8vw;
-    height: 8vh;
+    width: 10vw;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1vw;
+    font-size: 1.4vw;
 }
 
 svg {
@@ -112,15 +121,15 @@ svg {
 }
 
 label {
-    font-size: 1vw;
+    font-size: 1.7vw;
     margin-bottom: 0.3vh;
 }
 
 input {
     background-color: black;
     border: 0.2vw green solid;
-    width: 20vw;
-    height: 5vh;
+    width: 24vw;
+    height: 6vh;
     color: green;
     padding-right: 1vw;
     padding-left: 1vw;
