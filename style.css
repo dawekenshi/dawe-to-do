@@ -11,6 +11,10 @@
     display: none;
 }
 
+body {
+    background-color: #264348;
+}
+
 #taitol {
     font-size: 2vw;
     border-bottom: dotted white 0.5vw;
