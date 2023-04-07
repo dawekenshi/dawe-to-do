@@ -13,22 +13,119 @@
 body {
     display: flex;
     justify-content: center;
+    background-color: #264348;
 }
 
 #menu {
-    background-color: black;
+    color: white;
     background-image: linear-gradient(rgb(0, 0, 0, 0.88), rgb(0, 0, 0, 0.88)), url(menu.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 50vw;
+    width: 40vw;
     height: 100vh;
 }
 
 #mainer {
     background-color: #264348;
-    background-attachment: fixed;
-    width: 50vw;
-    height: 100vh;
+    width: 60vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
 }
+
+#gendiv {
+    background-color: grey;
+    height: 30vh;
+    width: 55vw;
+    border: 0.3vw solid black;
+    padding: 1vw;
+    word-wrap: break-word;
+}
+
+#gendiv + #gendiv {
+    margin-top: 1vh;
+}
+
+#checkeo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15vh;
+}
+
+#main-form {
+    margin-top: 2vh;
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#buttons-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4vh;
+    width: 20vw;
+    height: 5vh;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: black;
+    color: green;
+    padding: 1vw;
+    border: 0.2vw green solid;
+    width: 8vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+svg {
+    height: 8vh;
+}
+
+#title-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#info-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#time-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    font-size: 1vw;
+    margin-bottom: 0.3vh;
+}
+
+input {
+    background-color: black;
+    border: 0.2vw green solid;
+    width: 20vw;
+    height: 5vh;
+    color: green;
+    padding-right: 1vw;
+    padding-left: 1vw;
+}
+
+input:focus {
+    outline: none;
 }
