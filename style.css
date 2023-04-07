@@ -16,13 +16,17 @@ body {
 }
 
 #taitol {
-    font-size: 2vw;
+    font-size: 1.4vw;
     border-bottom: dotted white 0.5vw;
     width: 23vw;
     padding-bottom: 0.8vh;
     display: flex;
     justify-content: center;
-    margin-bottom: 2vh;
+    margin-bottom: 5vh;
+}
+
+svg {
+    height: 8vh;
 }
 
 #menu {
@@ -54,9 +58,17 @@ body {
     background-color: grey;
     height: 30vh;
     width: 55vw;
-    border: 0.3vw solid black;
+    border: 0.5vw solid black;
     padding: 1vw;
     word-wrap: break-word;
+    transition: 0.2s ease-out;
+}
+
+#gendiv:hover {
+    background-color: #b5aeae;
+    height: 32vh;
+    width: 57vw;
+    border-color: #314b6c;
 }
 
 #gendiv + #gendiv {
@@ -102,10 +114,13 @@ button {
     justify-content: center;
     align-items: center;
     font-size: 1.4vw;
+    transition: 0.5s ease-out;
 }
 
-svg {
-    height: 8vh;
+button:hover {
+    background-color: blue;
+    color: white;
+    border-color: white;
 }
 
 #title-div {
@@ -137,6 +152,12 @@ input {
     color: green;
     padding-right: 1vw;
     padding-left: 1vw;
+    transition: 0.5s ease-out;
+}
+
+input:hover {
+    border-color: blue;
+    color: blue;
 }
 
 input:focus {
